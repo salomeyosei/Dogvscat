@@ -24,6 +24,4 @@ Salomey Osei
 ## Acknowledgments
 
 * Gratitute to anyone whose code was used
-* Inspiration
-* etc
 
