@@ -11,7 +11,8 @@ import torch
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import transforms
-from model import CNN
+from model import CNN1
+from model import CNN2
 from dataset import MyDataset
 
 
@@ -84,7 +85,7 @@ accuracy_list = []
 # Training settings 
 n_features = 6 # number of feature maps
     
-model_cnn = CNN(input_size, n_features, output_size)
+model_cnn = CNN2(input_size, n_features, output_size)
 optimizer = optim.SGD(model_cnn.parameters(), lr=0.01, momentum=0.5)
     
 for epoch in range(0, 1):
